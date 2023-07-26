@@ -57,8 +57,8 @@ ul{
   color: var(--emphasize-color) !important;
   font-family: Comic Sans MS, Comic Sans, cursive !important;
   font-size: 30px !important;
-  margin-left: 170px;
-  margin-right: 170px ;
+  margin-left: 190px;
+  margin-right: 190px ;
 }
 .nav-link:hover{
   color: var(--background-color)!important;
@@ -67,7 +67,7 @@ ul{
   font-weight: bold !important;
 }
 #cadastro{
-  margin-right: 85px !important;
+  margin-right: 117px !important;
 }
 
 @media (max-width: 912px) {
