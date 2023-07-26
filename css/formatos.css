@@ -32,7 +32,7 @@ nav{
   row-gap: 0;
 }
 img{
-  height: 240px;
+  height: 200px;
 }
 footer {
   background-color: var(--container-color);
