@@ -20,12 +20,15 @@ body{
 header{
   background-color: var(--container-color);
   display: block;
+  height: 60px!important;
 }
 
 main{
   margin: 120px;
   text-align: center;
   color: white;
+  height:calc(100vh - 100px);
+  overflow-y:auto;
 }
 nav{
   display: flex;
@@ -41,10 +44,14 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 56px;
+  height: 25px;
   padding-top: 10px;
   color: var(--emphasize-color);
   }
+h2{
+  font-size: 12px!important;
+  font-weight: 20px!important;
+}
 ul{
   color: white !important;
 }
