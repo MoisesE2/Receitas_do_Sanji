@@ -62,12 +62,12 @@ ul{
 }
 
 .card-title{
-  font-size: xx-large !important;
+  font-size: medium !important;
   color: var(--emphasize-color) !important
 }
 .ingredientes{
   color: var(--emphasize-color) !important;
-  font-size: large;
+  font-size: small;
   text-align: left;
 }
 .card{
@@ -77,5 +77,5 @@ ul{
   background-color: var(--container-color)!important;
 }
 .card-text{
-  font-size: x-large !important;
+  font-size: small !important;
 }
