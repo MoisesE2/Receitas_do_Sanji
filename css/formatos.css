@@ -20,15 +20,12 @@ body{
 header{
   background-color: var(--container-color);
   display: block;
-  height: 60px!important;
 }
 
 main{
   margin: 120px;
   text-align: center;
   color: white;
-  height:calc(100vh - 100px);
-  overflow-y:auto;
 }
 nav{
   display: flex;
@@ -44,14 +41,10 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 25px;
+  height: 56px;
   padding-top: 10px;
   color: var(--emphasize-color);
   }
-h2{
-  font-size: 12px!important;
-  font-weight: 20px!important;
-}
 ul{
   color: white !important;
 }
@@ -69,12 +62,12 @@ ul{
 }
 
 .card-title{
-  font-size: medium !important;
+  font-size: xx-large !important;
   color: var(--emphasize-color) !important
 }
 .ingredientes{
   color: var(--emphasize-color) !important;
-  font-size: small;
+  font-size: large;
   text-align: left;
 }
 .card{
@@ -84,5 +77,5 @@ ul{
   background-color: var(--container-color)!important;
 }
 .card-text{
-  font-size: small !important;
+  font-size: x-large !important;
 }
