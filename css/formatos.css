@@ -1,14 +1,14 @@
 :root{
-  --primary-color: #0863c9;
-  /* #0863c9 */
-  --secondary-color:#fafe96 ;
-  /* #fafe96 */
-  --background-color: #4cd5ff ;
-  /* #4cd5ff */
-  --container-color:#ffe860 ;
-  /* #ffe860 */
-  --emphasize-color:#0c0684 ;
-  /* #0c0684 */
+  --primary-color:#832f42;
+
+  --secondary-color:#2a315a;
+
+  --background-color:#62bde0;
+
+  --container-color:#4163a1;
+
+  --emphasize-color: #f1a0a4;
+
 }
 /* principal */
 body{
@@ -26,9 +26,9 @@ header{
 main{
   margin: 120px;
   text-align: center;
-  color: white;
-  height:calc(100vh - 100px);
-  overflow-y:auto;
+  color:var(--background-color);
+  height:calc(100vh - 100px)!important;
+  overflow-y:auto!important;
 }
 nav{
   display: flex;
@@ -44,14 +44,11 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 25px;
-  padding-top: 10px;
+  height: 25px!important;
+  padding-top: 5px;
   color: var(--emphasize-color);
   }
-h2{
-  font-size: 12px!important;
-  font-weight: 20px!important;
-}
+
 ul{
   color: white !important;
 }
@@ -60,9 +57,10 @@ ul{
   width: 100% !important;
 }
 .nav-link{
-  color: var(--emphasize-color) !important;
-  font-family: Comic Sans MS, Comic Sans, cursive !important;
+  color: var(--secondary-color) !important;
+  font-family:American Typewriter, serif!important;
   font-size: 30px !important;
+  margin-top: -10px;
 }
 .nav-link:hover{
   color: var(--background-color)!important;
@@ -70,12 +68,14 @@ ul{
 
 .card-title{
   font-size: medium !important;
-  color: var(--emphasize-color) !important
+  color: white !important;
+  font-family:American Typewriter, serif!important;
 }
 .ingredientes{
   color: var(--emphasize-color) !important;
   font-size: small;
   text-align: left;
+  font-family:American Typewriter, serif!important;
 }
 .card{
   background-color: var(--secondary-color)!important;
@@ -85,4 +85,10 @@ ul{
 }
 .card-text{
   font-size: small !important;
+  color: #62bde0;
+  font-family:American Typewriter, serif!important;
+}
+#credits{
+  font-size: 12px!important;
+  font-weight: 20px!important;
 }
