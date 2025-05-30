@@ -1,4 +1,4 @@
-#Receitas do Sanji
+Receitas do Sanji
 
 ---
 Site feito como atividade avaliativa do curso de Desenvolvimento Full Stack da Estácio
